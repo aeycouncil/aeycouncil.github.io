@@ -46,17 +46,86 @@ h2 {
 ul {
 	list-style-type: circle;
 }
+li {
+	padding: 4px;
+}
+#recycle {
+	padding-left: 15%;
+	padding-bottom: 10%;
+}
+#flyer {
+	padding-bottom: 10px;
+}
+
+
+/* XL */
+@media (min-width: 1200px) {
+	#resources {
+	font-size: 2.2em;
+	}
+	#recycle {
+	margin-top: 15%;
+	margin-left:20%;
+	padding-left: 12%;
+	padding-right: 12%;
+	padding-top: 12%;
+	padding-bottom: 12%;
+	border: 20px solid white;
+	}
+	.spec_res {
+	font-size: 1.5em;
+	}
+	h2 {
+		font-size: 2.5em;
+	}
+	#description {
+		font-size: 1.3em;
+	}
+}
+
+/* LG */
+@media (min-width: 992px) and (max-width: 1199px) {
+	#resources {
+	font-size: 1.8em;
+	}
+	#recycle {
+	margin-top: 10%;
+	margin-left:15%;
+	padding-left: 12%;
+	padding-right: 12%;
+	padding-top: 12%;
+	padding-bottom: 12%;
+	border: 20px solid white;
+	}
+	.spec_res {
+	font-size: 1.5em;
+	}
+	h2 {
+		font-size: 2.5em;
+	}
+	#description {
+		font-size: 1.3em;
+	}
+}
+
 /* MD  */
 @media (min-width: 768px) and (max-width: 991px) {
 	#resources {
 	font-size: 1.4em;
 	}
+	#recycle {
+	padding-left: 25%;
+	padding-top: 10%;
+}
 }
 
 /* SM */
 @media (min-width: 576px) and (max-width: 767px) {
 	#resources {
-	font-size: 1.3em;
+	font-size: 1.5em;
+	}
+	#stu_pres {
+		padding-top: 20px;
 	}
 }
 
