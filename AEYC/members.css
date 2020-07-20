@@ -1,0 +1,162 @@
+body {
+	background-color: #dfe1ca;
+	box-sizing: border-box;
+}
+
+#main_content {
+	background-image: url("forest2.png");
+	background-size: cover;
+}
+
+#meet {
+	color: white;
+	font-family: 'Nixie One', cursive;
+  	font-size: 2em;
+  	padding: 20px;
+  	text-align: center;
+}
+
+.student {
+	color: white;
+	background-color: black;
+	padding: 10px;
+	text-align: center;
+	left: auto;
+	right: auto;
+	margin: 10px 30px 10px 30px;
+	height: 50px;
+	font-family:'Barlow', sans-serif;
+  	font-weight: 200;
+  	font-size: 1.3em;
+}
+
+.edu, .kids {
+	background-color: #c1cd99;
+  color: #547254;
+}
+
+.sustainwaste, .sus{
+	background-color: #c1cd99;
+}
+
+.public, .aware{
+	background-color: #d17958;
+}
+
+.envileg, .env {
+	background-color: #dfbb80;
+}
+.nature, .nat {
+	background-color: #547254;
+}
+.tbd {
+	background-color: white;
+	color: #547254;
+}
+#key {
+  color: white;
+  font-family:'Barlow', sans-serif;
+  font-weight: 200;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+}
+
+.nat, .env, .aware, .sus, .kids {
+  font-size: .7em;
+  padding: 3px 5px 2px 5px;
+  margin: 5px;
+}
+
+/* XL */
+@media (min-width: 1200px) {
+  #meet {
+  	font-size: 3em;
+  }
+  .last {
+   	left: 24.3%;
+   }
+   .student {
+   	margin-left: 5%;
+   }
+}
+
+/* LG */
+@media (min-width: 992px) and (max-width: 1199px) {
+   .last {
+   	left: 24.6%;
+   }
+   .student {
+   	padding: 8px;
+   	margin-left: 4.8%;
+   }
+   .env, .aware, .kids, .nat {
+    padding-top: 10px;
+   }
+}
+
+/* MD  */
+@media (min-width: 768px) and (max-width: 991px) {
+  .last {
+   	left: 25%;
+   }
+   .student {
+   	padding: 7px;
+   }
+   .aware, .kids, .nat {
+    padding-top: 10px;
+   }
+  
+}
+
+
+/* SM */
+@media (min-width: 576px) and (max-width: 767px) {
+  .student:nth-child(odd) {
+  	margin-left: 10%;
+  }
+  .env, .kids, .nat {
+    padding-top: 3px;
+   }
+   .nat {
+    margin-left: 20%;
+   }
+   .aware {
+    padding-top: 10px;
+   }
+}
+
+
+/* XS */
+@media (max-width: 576px) {
+  	.student {
+  		margin: 10px 20px 10px 20px;
+  	}
+  	.student:nth-child(odd) {
+  	margin-left: 10%;
+  }
+  .nat {
+    margin-left: 25%;
+  }
+  .aware {
+    padding-top: 10px;
+  }
+  .env {
+    padding-top: 10px;
+  }
+}
+
+/*crazy-tiny */
+@media (max-width: 331px) {
+  .env {
+    padding-right: 7px;
+    padding-left: 2px;
+    padding-top: 10px;
+  }
+  .nat{
+    padding-top: 3px;
+  }
+
+}
+
+

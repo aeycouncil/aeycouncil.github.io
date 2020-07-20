@@ -1,0 +1,360 @@
+body {
+  font-size: 16px;
+  color: black;
+  background-color: #859871;
+  font-family: 'Oxygen', sans-serif;
+  box-sizing: border-box;
+}
+/* begin navbar */
+.navbar-custom {
+  background-color:#C1CD99;
+  color:  #547254;
+}
+
+.nav-item {
+  color: #547254;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 1em;
+}
+
+.navbar-toggler {
+  color: black;
+  font-style: bold;
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+ /* begin quote */
+#plans{
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  background-color: #d17958;
+  color: white;
+  padding: 15px 15px 0px 15px;
+  opacity: .8;
+  font-family: 'Nixie One', cursive;
+}
+
+#stu {
+  width: 100%;
+  font-size: 1em;
+  background-color: #d17958;
+  text-transform: uppercase;
+  color: #dfbb80;
+  padding: 1px;
+  opacity: .8;
+  font-family:'Barlow', sans-serif;
+} 
+
+#stu2 {
+ position: relative;
+ left: 60%;
+  width: 100%;
+  font-size: 1em;
+  background-color: #d17958;
+  text-transform: uppercase;
+  color: #dfbb80;
+  padding: 1px;
+  opacity: .8;
+  font-family:'Barlow', sans-serif;
+  font-weight: 200;
+}
+
+#about {
+  width: 100%;
+  font-size: 1.7em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #547254;
+  padding: 10px 5px 5px 5px;
+  opacity: .8;
+  font-family:'Barlow', sans-serif;
+  font-weight: 500;
+}
+/* committees */
+#background {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-bottom: 20px;
+  
+}
+
+#background2 {
+  background-image: url(leaves.png); 
+  background-size: 100%;
+  height: 100%;
+  /* border:10px solid #859871; */
+  padding: 10px 20px 10px 20px;
+}
+
+#committees_title {
+  color: #d17958;
+  font-size: 2.5em;
+  text-align: center;
+  margin-top: 15px;
+  font-family:'Barlow', sans-serif;
+  font-weight: 200;
+}
+
+.committee {
+  text-align: center;
+  color: #dfbb80;
+  font-weight: bold;
+  margin-top: 20px;
+
+}
+
+#ourcommittees {
+  padding-top: 35px;
+}
+#envileg {
+   width: 32%;
+   display: block;
+   position: relative;
+   left: 35%;
+}
+#publicawareness {
+   width: 50%;
+   display: block;
+   position: relative;
+   left: 31%;
+}
+
+#suswaste {
+   width: 30%;
+   display: block;
+   position: relative;
+   left: 35%;
+}
+
+#eduoutreach {
+   width: 50%;
+}
+
+#natcons {
+   width: 50%;
+   display: block;
+   position: relative;
+   left: 25%;
+}
+
+hr {
+  border-top: 15px solid #C1CD99;
+  padding: 0px;
+}
+
+/* contact us */
+#gettoknowusbg {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 0px;
+  border: 40px solid #C1CD99;
+}
+
+#gettoknowus {
+color: #859871;
+font-family:'Barlow', sans-serif;
+font-weight: 200;
+font-size: 1.5em;
+text-align: center;
+margin-top: 15px;
+}
+
+.contact {
+  color: #26490a;
+}
+
+#interest {
+  font-family:'Barlow', sans-serif;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+
+#instaat {
+  font-family:'Barlow', sans-serif;
+  font-weight: 300;
+  font-size: 1.5em;
+  padding-top: 10px;
+}
+
+#instaimage {
+   width: 50%;
+   display: block;
+   position: relative;
+   left: 27%;
+}
+
+#leafyfoliage {
+   width: 50%;
+   display: block;
+   position: relative;
+   left: 30%;
+}
+
+#branch {
+   width: 50%;
+   display: block;
+   position: relative;
+   left: 30%;
+}
+
+a {
+  color: #26490a;
+  text-decoration-line: underline;
+}
+
+ a:hover {
+  color: #C1CD99;
+}
+
+#email {
+  font-size: .8em;
+  position: relative;
+  right: 5%;
+  top: 10%;
+  font-family:'Barlow', sans-serif;
+  font-weight: 300;
+}
+
+/* begin footer */
+.panel-footer {
+  color: #dfe1ca;
+  font-family:'Barlow', sans-serif;
+  font-weight: 300;
+  padding: 10px;
+  background-color: #547254; 
+}
+
+
+/* Large devices only DESKTOP */
+@media (min-width: 1200px) {
+  #eduoutreach {
+   width: 60%;
+  }
+
+  #ourcommittees {
+    padding-top: 25px;
+  }
+
+  .committee {
+        font-size: 1.5em;
+        padding-top: 10px;
+      }
+
+  #gettoknowus {
+    font-size: 3em;
+  }
+
+  #email {
+  font-size: .9em;
+  position: relative;
+  right: 5%;
+  top: 6%;
+}
+
+}
+
+/* Medium devices only  LAPTOP */
+@media (min-width: 992px) and (max-width: 1199px) {
+  #ourcommittees {
+    padding-top: 20px;
+  }
+  #gettoknowus {
+    font-size: 2em;
+  }
+  #email {
+  font-size: 1.2em;
+  top: 6%;
+}
+
+  
+}
+
+/* Small devices only  TABLETS  */
+@media (min-width: 768px) and (max-width: 991px) {
+  .committee {
+  position: relative;
+  left: 20px;
+}
+
+#ourcommittees {
+    padding-top: 20px;
+  }
+
+  #email {
+  font-size: .9em;
+  top: 8%;
+  right: 17%;
+}
+
+}
+
+/*Extra small devices only   PHONE Horizontal */
+@media (min-width: 576px) and (max-width: 767px) {
+    #our_committees {
+  font-size: 2em;
+  padding-top: 15px;
+    }
+
+    #branch {
+      width: 30%;
+      display: block;
+      position: relative;
+      left: 35%;
+      }
+      #email {
+        padding-bottom: 10%;
+        font-size: 1.4em;
+        position: relative;
+        left: 2%;
+      }
+
+      }
+
+/*SUPER TINY */
+@media (max-width: 576px) {
+    #ourcommittees {
+  font-size: .6em;
+  padding-top: 10px;
+    }
+
+      .committee {
+        font-size: .6em;
+      }
+
+      #gettoknowusbg {
+        border: 20px solid #C1CD99;
+      }
+
+      #branch {
+      width: 30%;
+      display: block;
+      position: relative;
+      left: 35%;
+      }
+      #email {
+        padding-bottom: 10%;
+        font-size: 1.5em;
+        position: relative;
+        left: 2%;
+      }
+      .panel-footer {
+        font-size: .8em;
+      }
+  }
+
+
+
+
+
+
+
+
+
