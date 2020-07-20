@@ -28,3 +28,13 @@ body {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
+/* XS */
+@media (max-width: 576px) {
+	#init_title {
+		width: 250px;
+	}
+	#info {
+		font-size: 1em;
+	}
+}
