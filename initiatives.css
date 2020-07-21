@@ -157,11 +157,10 @@ li {
 	}
 	#flyer2 {
 		box-sizing: content-box;
-		width: 186px;
-		height: 182px;
+		width: 156px;
+		height: 152px;
 		margin-left: auto;
 		margin-right: auto;
-		margin-bottom: 10px;
 	}
 
 }
