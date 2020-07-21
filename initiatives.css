@@ -55,6 +55,8 @@ li {
 }
 #flyer {
 	padding-bottom: 10px;
+	width: 100%;
+	height: auto;
 }
 
 
@@ -116,7 +118,7 @@ li {
 	#recycle {
 	padding-left: 25%;
 	padding-top: 10%;
-}
+	}
 }
 
 /* SM */
@@ -126,6 +128,12 @@ li {
 	}
 	#stu_pres {
 		padding-top: 20px;
+	}
+	#flyer {
+	margin-top: 20px;
+	padding-top: 10px;
+	width: 240px;
+	height: 380px;
 	}
 }
 
@@ -146,7 +154,12 @@ li {
 	}
 	.spec_res {
 	font-size: .8em;
-}
+	}
+	#flyer {
+	width: 240;
+	height: 360;
+	}
+	}
 
 }
 
