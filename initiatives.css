@@ -16,9 +16,9 @@ p {
 #leaf {
 	width: 30%;
 	display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 30px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	padding-top: 30px;
 }
 
 #place{
@@ -155,8 +155,9 @@ li {
 	.spec_res {
 	font-size: .8em;
 	}
-	#flyer {
-		padding-bottom: 100px;
+	#flyer2 {
+		max-width: 100%;
+		height: auto;
 	}
 
 }
