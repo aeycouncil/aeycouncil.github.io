@@ -156,10 +156,12 @@ li {
 	font-size: .8em;
 	}
 	#flyer2 {
-		width: 10em;
-		height: 10em;
+		box-sizing: content-box;
+		width: 186px;
+		height: 182px;
 		margin-left: auto;
 		margin-right: auto;
+		margin-bottom: 10px;
 	}
 
 }
