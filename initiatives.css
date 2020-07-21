@@ -156,9 +156,7 @@ li {
 	font-size: .8em;
 	}
 	#flyer {
-	width: 240;
-	height: 360;
-	}
+		padding-bottom: 100px;
 	}
 
 }
