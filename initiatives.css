@@ -156,8 +156,9 @@ li {
 	font-size: .8em;
 	}
 	#flyer2 {
-		max-width: 100%;
+		width: 50%;
 		height: auto;
+		padding-bottom: 15px;
 	}
 
 }
