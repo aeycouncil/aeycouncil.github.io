@@ -116,22 +116,14 @@ a:hover + .partner_name {
 		font-size: 1em;
 	}
 	#aec_name {
-		left: 31%;
-		bottom: 56%;
-	}
-	.partner_name {
-		font-size: .85em;
+		display: none;
 	}
 }
 
 /* XXS */
 @media (max-width: 525px) {
-	.partner_name {
-		font-size: .4em;
-	}
 	#aec_name {
-		left: 34%;
-		bottom: 56%;
+		display: none;
 	}
 }
 
