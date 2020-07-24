@@ -54,6 +54,28 @@ body {
 	bottom: 58%;
 	left: 47%;
 }
+#pals {
+	position: absolute;
+	bottom: 40%;
+	left: 50%;
+}
+#pals_name {
+	position: absolute;
+	bottom: 32%;
+	left: 48%;
+}
+#aww {
+	position: absolute;
+	bottom: 45%;
+	left: 62%;
+}
+#aww_name {
+	position: absolute;
+	color: #c1cd99;
+	left: 73%;
+	bottom: 49%;
+
+}
 a:hover + .partner_name {
 	display: inline-block;
 }
@@ -66,8 +88,19 @@ a:hover + .partner_name {
 
 /* XL */
 @media (min-width: 1200px) {
+	.partner_name {
+		font-size: 1.5em;
+	}
 	#aec_name {
-		left: 40%;
+		left: 34%;
+	}
+	#pals_name {
+	bottom: 33%;
+	left: 48%;
+	}
+	#aww_name {
+	left: 73%;
+	bottom: 52%;
 	}
 }
 
@@ -76,12 +109,25 @@ a:hover + .partner_name {
 	#aec_name {
 		left: 37%;
 	}
+	#pals_name {
+	bottom: 35%;
+	left: 49%;
+	}
+	#aww_name {
+	font-size: 1.3em;
+	left: 73%;
+	bottom: 52%;
+	}
 }
 
 /* MD  */
 @media (min-width: 768px) and (max-width: 991px) {
 	#aec_name {
 		left: 35%;
+	}
+	#aww_name {
+		left: 73%;
+		bottom: 52%;
 	}
 }
 
@@ -118,11 +164,23 @@ a:hover + .partner_name {
 	#aec_name {
 		display: none;
 	}
+	#pals_name {
+		display: none;
+	}
+	#aww_name {
+		display: none;
+	}
 }
 
 /* XXS */
 @media (max-width: 525px) {
 	#aec_name {
+		display: none;
+	}
+	#pals_name {
+		display: none;
+	}
+	#aww_name {
 		display: none;
 	}
 }
