@@ -76,12 +76,23 @@ body {
 	bottom: 49%;
 
 }
+#conservationalabama {
+	position: absolute;
+	bottom: 11%;
+	left: 28%;
+}
+#ca_name {
+	position: absolute;
+	left: 30%;
+	bottom: 24%;
+
+}
 a:hover + .partner_name {
 	display: inline-block;
 }
 .partner_name {
 	color: dark gray;
-	display: none;
+	/* display: none; */
 	font-family:'Barlow', sans-serif;
   	font-weight: 200;
 }
@@ -170,6 +181,9 @@ a:hover + .partner_name {
 	#aww_name {
 		display: none;
 	}
+	#ca_name {
+		display: none;
+	}
 }
 
 /* XXS */
@@ -181,6 +195,9 @@ a:hover + .partner_name {
 		display: none;
 	}
 	#aww_name {
+		display: none;
+	}
+	#ca_name {
 		display: none;
 	}
 }
