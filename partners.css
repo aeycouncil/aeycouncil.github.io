@@ -92,7 +92,7 @@ a:hover + .partner_name {
 }
 .partner_name {
 	color: dark gray;
-	/* display: none; */
+	display: none;
 	font-family:'Barlow', sans-serif;
   	font-weight: 200;
 }
