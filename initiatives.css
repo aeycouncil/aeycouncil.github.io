@@ -56,7 +56,8 @@ li {
 #flyer {
 	padding-bottom: 10px;
 	padding-top: 10px;
-	width: 45%;
+	max-width: 45%;
+	height: auto;
 }
 
 
