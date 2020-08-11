@@ -4,6 +4,7 @@ body {
 
 #main_content {
 	background-color: #859871;
+	align-items: flex-start;
 }
 
 #our {
@@ -54,14 +55,15 @@ li {
 	padding-bottom: 10%;
 }
 #flyer {
-	padding-bottom: 10px;
-	padding-top: 10px;
 	max-height: 100%;
+	border: 5px solid white;
 }
 hr {
 	padding-bottom: 10px;
 }
-
+#fly {
+	align-items: flex-start;
+}
 
 
 /* XL */
@@ -129,7 +131,6 @@ hr {
 	}
 	#flyer {
 	margin-top: 20px;
-	padding-top: 10px;
 	width: 240px;
 	height: 380px;
 	}
