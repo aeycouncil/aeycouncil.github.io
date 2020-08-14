@@ -39,7 +39,6 @@ p {
 }
 h2 {
 	text-align: center;
-	padding-top: 20px;
 	font-family:'Barlow', sans-serif;
   	font-weight: 400;
   	color: #547254;
@@ -58,13 +57,23 @@ li {
 	max-height: 100%;
 	border: 5px solid white;
 }
-hr {
+#hr2 {
 	padding-bottom: 10px;
 }
 #fly {
 	align-items: flex-start;
 }
+hr {
+  	border-top: 10px solid #C1CD99;
+}
+#webflyer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 30px;
 
+}
 
 /* XL */
 @media (min-width: 1200px) {
@@ -85,6 +94,9 @@ hr {
 	}
 	#description {
 		font-size: 1.3em;
+	}
+	hr {
+  	border-top: 15px solid #C1CD99;
 	}
 }
 
@@ -108,6 +120,9 @@ hr {
 	#description {
 		font-size: 1.3em;
 	}
+	hr {
+  	border-top: 15px solid #C1CD99;
+	}
 }
 
 /* MD  */
@@ -119,6 +134,7 @@ hr {
 	padding-left: 25%;
 	padding-top: 10%;
 	}
+	
 }
 
 /* SM */
@@ -133,6 +149,9 @@ hr {
 	margin-top: 20px;
 	width: 240px;
 	height: 380px;
+	}
+	#webflyer {
+		width: 70%;
 	}
 }
 
@@ -160,6 +179,9 @@ hr {
 		height: 152px;
 		margin-left: auto;
 		margin-right: auto;
+	}
+	#webflyer {
+		width: 90%;
 	}
 
 }
