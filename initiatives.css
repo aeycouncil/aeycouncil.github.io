@@ -70,8 +70,10 @@ hr {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 100%;
+  max-height: 100%;
   padding-top: 30px;
+  padding-left: 10%;
 
 }
 
@@ -150,9 +152,6 @@ hr {
 	width: 240px;
 	height: 380px;
 	}
-	#webflyer {
-		width: 70%;
-	}
 }
 
 /* XS */
@@ -179,9 +178,6 @@ hr {
 		height: 152px;
 		margin-left: auto;
 		margin-right: auto;
-	}
-	#webflyer {
-		width: 90%;
 	}
 
 }
