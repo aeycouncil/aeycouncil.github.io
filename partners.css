@@ -51,7 +51,7 @@ body {
 }
 #aec_name {
 	position: absolute;
-	bottom: 58%;
+	bottom: 72%;
 	left: 47%;
 }
 #pals {
@@ -85,6 +85,19 @@ body {
 	position: absolute;
 	left: 30%;
 	bottom: 24%;
+
+}
+
+#alabamaonfire {
+	position: absolute;
+	left: 34%;
+	bottom: 57%;
+
+}
+#aof_name {
+	position: absolute;
+	left: 32%;
+	bottom: 54%;
 
 }
 a:hover + .partner_name {
