@@ -51,8 +51,8 @@ body {
 }
 #aec_name {
 	position: absolute;
-	bottom: 72%;
-	left: 47%;
+	bottom: 60%;
+	left: 53%;
 }
 #pals {
 	position: absolute;
@@ -100,9 +100,21 @@ body {
 	bottom: 54%;
 
 }
+#blackwarrior {
+	position: absolute;
+	left: 38%;
+	bottom: 69%;
+
+}
+#bw_name {
+	position: absolute;
+	left: 32%;
+	bottom: 81%;
+}
+
 a:hover + .partner_name {
 	display: inline-block;
-}
+} 
 .partner_name {
 	color: dark gray;
 	display: none;
@@ -114,9 +126,6 @@ a:hover + .partner_name {
 @media (min-width: 1200px) {
 	.partner_name {
 		font-size: 1.5em;
-	}
-	#aec_name {
-		left: 34%;
 	}
 	#pals_name {
 	bottom: 33%;
@@ -130,9 +139,6 @@ a:hover + .partner_name {
 
 /* LG */
 @media (min-width: 992px) and (max-width: 1199px) {
-	#aec_name {
-		left: 37%;
-	}
 	#pals_name {
 	bottom: 35%;
 	left: 49%;
@@ -146,10 +152,7 @@ a:hover + .partner_name {
 
 /* MD  */
 @media (min-width: 768px) and (max-width: 991px) {
-	#aec_name {
-		left: 35%;
-	}
-	#aww_name {
+		#aww_name {
 		left: 73%;
 		bottom: 52%;
 	}
@@ -157,12 +160,11 @@ a:hover + .partner_name {
 
 /* SM */
 @media (min-width: 576px) and (max-width: 767px) {
-	#aec_name {
-		left: 31%;
-		bottom: 57%;
-	}
 	.partner_name {
 		font-size: 14px;
+	}
+	#aec_name {
+		font-size: .7em;
 	}
 
 }
@@ -185,34 +187,26 @@ a:hover + .partner_name {
 	#info {
 		font-size: 1em;
 	}
+	
 	#aec_name {
-		display: none;
-	}
-	#pals_name {
-		display: none;
-	}
-	#aww_name {
-		display: none;
-	}
-	#ca_name {
-		display: none;
-	}
+		font-size: .7em;
+	
 }
 
 /* XXS */
 @media (max-width: 525px) {
+	
 	#aec_name {
-		display: none;
+		font-size: .6em;
 	}
+	
 	#pals_name {
-		display: none;
+		font-size: .6em;
+	} 
+	#bw_name {
+		font-size: .6em;
 	}
-	#aww_name {
-		display: none;
-	}
-	#ca_name {
-		display: none;
-	}
+	
 }
 
 

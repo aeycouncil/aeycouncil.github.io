@@ -41,7 +41,7 @@ h2 {
 	text-align: center;
 	font-family:'Barlow', sans-serif;
   	font-weight: 400;
-  	color: #547254;
+  	color: white;
 }
 ul {
 	list-style-type: circle;
@@ -75,6 +75,55 @@ hr {
   padding-top: 30px;
   padding-left: 10%;
 
+}
+
+#webflyer2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  width: 56%;
+
+}
+
+
+/* Subnav button */
+.subnav .subnavbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  padding-top: 10%;
+}
+
+
+/* Style the subnav content - positioned absolute */
+.subnav-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  width: ;
+  z-index: 1;
+}
+
+/* Style the subnav links */
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+/* Add a grey background color on hover */
+.subnav-content a:hover {
+  color: black;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.nav-link:hover .subnav-content {
+  display: block;
 }
 
 /* XL */
@@ -152,6 +201,9 @@ hr {
 	width: 240px;
 	height: 380px;
 	}
+	#webflyer2 {
+		width: 100%;
+	}
 }
 
 /* XS */
@@ -178,6 +230,11 @@ hr {
 		height: 152px;
 		margin-left: auto;
 		margin-right: auto;
+	}
+	#webflyer2 {
+  		width: 100%;
+  		max-height: 100%;
+  		padding-top: 30px;
 	}
 
 }
