@@ -81,7 +81,8 @@ hr {
 	margin-right: auto;
 	font-family:'Barlow', sans-serif;
   	font-weight: 400;
-}
+  	font-size: 1.1em;
+  	}
 #webflyer3 {
 	margin-left: 35%;
 	padding-bottom: 2%;
@@ -208,6 +209,10 @@ hr {
 		margin-left: auto;
 		margin-right: auto;
 	}
+	#Nina_info {
+		font-size: 0.9em;
+	}
+
 }
 
 /* XS */
@@ -243,6 +248,9 @@ hr {
 	#webflyer3 {
 		margin-left: auto;
 		margin-right: auto;
+	}
+	#Nina_info {
+		font-size: 0.9em;
 	}
 
 }
