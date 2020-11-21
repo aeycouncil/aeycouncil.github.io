@@ -7,6 +7,8 @@ body {
 	align-items: flex-start;
 
 }
+
+
 h1 {
 	text-align: center;
 	font-family:'Barlow', sans-serif;
@@ -17,11 +19,11 @@ h1 {
 }
 .issue_num {
 	font-family:'Barlow', sans-serif;
-  	font-weight: 400;
-  	color: #547254;
-  	text-align: center;
-  	font-size: 1.5em;
-  	text-decoration: underline;
+  font-weight: 400;
+  color: #547254;
+  text-align: center;
+  font-size: 1.5em;
+  text-decoration: underline;
 }
 
 .col-5 {
@@ -33,7 +35,7 @@ h1 {
   padding-top: 30px;
   margin-bottom: 10%;
 }
-#about1 {
+.about {
   margin-left: 0%;
   color: #547254;
 
@@ -41,6 +43,6 @@ h1 {
 span {
 	font-style: italic;
 }
-#pic1 {
-	border: 1px solid black;
+hr {
+  border-top: 5px solid #c1cd99;
 }
