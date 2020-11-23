@@ -46,3 +46,7 @@ span {
 hr {
   border-top: 5px solid #c1cd99;
 }
+#form {
+  padding-bottom: 2%;
+  text-align: center;
+}
