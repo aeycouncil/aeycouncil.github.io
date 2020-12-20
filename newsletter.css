@@ -5,36 +5,43 @@ body {
 #main_content {
 	background-color: white;
 	align-items: flex-start;
-
 }
 
+.button {
+  background-color: #dfe1ca;
+  color: black;
+  cursor: pointer;
+  padding-top: 10px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 8px;
+  border: none;
+  text-align: center;
+  font-size: 15px;
+}
+
+a:hover {
+  color: #547254;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+#submissions {
+  text-align: center;
+  padding-bottom: 30px;
+}
 
 h1 {
 	text-align: center;
 	font-family:'Barlow', sans-serif;
-  	font-weight: 400;
-  	color: black;
-  	padding-top: 1%;
-  	font-style: italic;
-}
-.issue_num {
-	font-family:'Barlow', sans-serif;
   font-weight: 400;
-  color: #547254;
-  text-align: center;
-  font-size: 1.5em;
-  text-decoration: underline;
+  color: black;
+  padding-top: 1%;
+  font-style: italic;
 }
 
-.col-5 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  max-height: 100%;
-  padding-top: 30px;
-  margin-bottom: 10%;
-}
 .about {
   margin-left: 0%;
   color: #547254;
