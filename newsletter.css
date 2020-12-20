@@ -11,7 +11,7 @@ body {
   background-color: #dfe1ca;
   color: black;
   cursor: pointer;
-  padding-top: 10px;
+  padding: 22px;
   width: 90%;
   margin: auto;
   margin-bottom: 8px;
@@ -42,14 +42,6 @@ h1 {
   font-style: italic;
 }
 
-.about {
-  margin-left: 0%;
-  color: #547254;
-
-}
-span {
-	font-style: italic;
-}
 hr {
   border-top: 5px solid #c1cd99;
 }
