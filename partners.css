@@ -3,212 +3,37 @@ body {
 	box-sizing: border-box;
 }
 
+#title {
+	font-family: 'Nixie One', cursive;
+  	font-size: 4em;
+  	text-align: center;
+
+}
 #main_content {
-	background-image: url("pics/darkleaves2.jpeg");
-	background-size: cover;
+	background-color: white;
 }
-
-#our {
-	padding-top: 10px;
-	padding-left: 20px;
-}
-
-#info {
-	text-align: center;
-	font-size: 2em;
-	padding-top: 30px;
-	padding-bottom: 20px;
-	color: white;
-}
-#leaf {
-	width: 30%;
+.logo {
 	display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 30px;
+	padding-right: 3%;
+	padding-left: 3%;
 }
 
-#place{
-	text-align: center;
-  padding-top: 30px;
-}
-#al {
-	width: 50%;
-	margin-left: 25%;
-	padding-bottom: 5%;
-	padding-top: 10px;
-}
-.loc {
-	width: 10%;
-}
-#state {
-	position: relative;
-}
-#AEC {
-	position: absolute;
-	bottom: 60%;
-	left: 44%;
-}
-#aec_name {
-	position: absolute;
-	bottom: 60%;
-	left: 53%;
-}
-#pals {
-	position: absolute;
-	bottom: 40%;
-	left: 50%;
-}
-#pals_name {
-	position: absolute;
-	bottom: 32%;
-	left: 48%;
-}
-#aww {
-	position: absolute;
-	bottom: 45%;
-	left: 62%;
-}
-#aww_name {
-	position: absolute;
-	color: #c1cd99;
-	left: 73%;
-	bottom: 49%;
-
-}
-#conservationalabama {
-	position: absolute;
-	bottom: 11%;
-	left: 28%;
-}
-#ca_name {
-	position: absolute;
-	left: 30%;
-	bottom: 24%;
-
+#small_list {
+	padding-bottom: 15px;
+	font-size: 1.5em;
 }
 
-#alabamaonfire {
-	position: absolute;
-	left: 34%;
-	bottom: 57%;
-
-}
-#aof_name {
-	position: absolute;
-	left: 32%;
-	bottom: 54%;
-
-}
-#blackwarrior {
-	position: absolute;
-	left: 38%;
-	bottom: 69%;
-
-}
-#bw_name {
-	position: absolute;
-	left: 32%;
-	bottom: 81%;
+hr {
+  border-top: 5px solid #C1CD99;
+  padding-bottom: 4px;
 }
 
-a:hover + .partner_name {
-	display: inline-block;
-} 
-.partner_name {
-	color: dark gray;
-	display: none;
+#new_partners {
 	font-family:'Barlow', sans-serif;
   	font-weight: 200;
+  	font-size: 1.3em;
+	text-align: center;
 }
-
-/* XL */
-@media (min-width: 1200px) {
-	.partner_name {
-		font-size: 1.5em;
-	}
-	#pals_name {
-	bottom: 33%;
-	left: 48%;
-	}
-	#aww_name {
-	left: 73%;
-	bottom: 52%;
-	}
-}
-
-/* LG */
-@media (min-width: 992px) and (max-width: 1199px) {
-	#pals_name {
-	bottom: 35%;
-	left: 49%;
-	}
-	#aww_name {
-	font-size: 1.3em;
-	left: 73%;
-	bottom: 52%;
-	}
-}
-
-/* MD  */
-@media (min-width: 768px) and (max-width: 991px) {
-		#aww_name {
-		left: 73%;
-		bottom: 52%;
-	}
-}
-
-/* SM */
-@media (min-width: 576px) and (max-width: 767px) {
-	.partner_name {
-		font-size: 14px;
-	}
-	#aec_name {
-		font-size: .7em;
-	}
-
-}
-
-/* XS */
-@media (max-width: 576px) {
-	#smallpartners {
-		color: #dfe1ca;
-		font-size: 2em;
-		font-family:'Barlow', sans-serif;
-		font-weight: 200;
-		width: 60%;
-		margin: 0px;
-	}
-
-	#our {
-		width: 30%;
-	}
-
-	#info {
-		font-size: 1em;
-	}
-	
-	#aec_name {
-		font-size: .7em;
-	
-}
-
-/* XXS */
-@media (max-width: 525px) {
-	
-	#aec_name {
-		font-size: .6em;
-	}
-	
-	#pals_name {
-		font-size: .6em;
-	} 
-	#bw_name {
-		font-size: .6em;
-	}
-	
-}
-
 
 
 
