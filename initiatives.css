@@ -1,266 +1,27 @@
 body {
 	background-color: #dfe1ca;
+	box-sizing: border-box;
 }
 
+#title {
+	font-family: 'Nixie One', cursive;
+  	font-size: 4em;
+  	text-align: center;
+
+}
 #main_content {
-	background-color: #859871;
-	align-items: flex-start;
+	background-color: white;
 }
 
-#our {
-	padding-top: 10px;
+hr {
+  border-top: 5px solid #C1CD99;
+  padding-bottom: 4px;
 }
 
-p {
-	color: #dfe1ca;
-}
-#leaf {
-	width: 30%;
-	display: block;
- 	margin-left: auto;
- 	margin-right: auto;
- 	padding-top: 30px;
-}
-
-#place{
-	text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-#resources {
-	font-size: 1.5em;
-	font-family:'Barlow', sans-serif;
-  	font-weight: 400;
-  	color: #547254;
-}
-.spec_res, a {
-	font-size: 1em;
-	color: #dfe1ca;
-}
 h2 {
 	text-align: center;
-	font-family:'Barlow', sans-serif;
-  	font-weight: 400;
-  	color: white;
-}
-ul {
-	list-style-type: circle;
-}
-li {
-	padding: 4px;
-}
-#recycle {
-	padding-left: 15%;
-	padding-bottom: 10%;
-}
-#flyer {
-	max-height: 100%;
-	border: 5px solid white;
-}
-#hr2 {
-	padding-bottom: 10px;
-}
-#fly {
-	align-items: flex-start;
-}
-hr {
-  	border-top: 10px solid #C1CD99;
-}
-.webflyer {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  max-height: 100%;
-  padding: 10px;
-}
-#penguin {
-  margin-left: auto;
-  margin-right: auto;
 }
 
-/* Subnav button */
-.subnav .subnavbtn {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: white;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-  padding-top: 10%;
-}
-
-
-/* Style the subnav content - positioned absolute */
-.subnav-content {
-  display: none;
-  position: absolute;
-  background-color: black;
-  width: ;
-  z-index: 1;
-}
-
-/* Style the subnav links */
-.subnav-content a {
-  float: left;
-  color: white;
-  text-decoration: none;
-}
-
-/* Add a grey background color on hover */
-.subnav-content a:hover {
-  color: black;
-}
-
-/* When you move the mouse over the subnav container, open the subnav content */
-.nav-link:hover .subnav-content {
-  display: block;
-}
-
-/* XL */
-@media (min-width: 1200px) {
-	#resources {
-	font-size: 2.2em;
-	}
-	#recycle {
-	margin-top: 15%;
-	margin-left: 20%;
-	padding: 12%;
-	border: 20px solid white;
-	}
-	.spec_res {
-	font-size: 1.5em;
-	}
-	h2 {
-		font-size: 2.5em;
-	}
-	#description {
-		font-size: 1.3em;
-	}
-	hr {
-  	border-top: 15px solid #C1CD99;
-	}
-}
-
-/* LG */
-@media (min-width: 992px) and (max-width: 1199px) {
-	#resources {
-	font-size: 1.8em;
-	}
-	#recycle {
-	margin-top: 10%;
-	margin-left:15%;
-	padding: 12%;
-	border: 20px solid white;
-	}
-	.spec_res {
-	font-size: 1.5em;
-	}
-	h2 {
-		font-size: 2.5em;
-	}
-	#description {
-		font-size: 1.3em;
-	}
-	hr {
-  	border-top: 15px solid #C1CD99;
-	}
-}
-
-/* MD  */
-@media (min-width: 768px) and (max-width: 991px) {
-	#resources {
-	font-size: 1.4em;
-	}
-	#recycle {
-	padding-left: 25%;
-	padding-top: 10%;
-	}
-	
-}
-
-/* SM */
-@media (min-width: 576px) and (max-width: 767px) {
-	#resources {
-	font-size: 1.5em;
-	}
-	#stu_pres {
-		padding-top: 20px;
-	}
-	#flyer {
-	margin-top: 20px;
-	width: 240px;
-	height: 380px;
-	}
-	#webflyer2 {
-		width: 100%;
-	}
-	#webflyer3 {
-		margin-left: auto;
-		margin-right: auto;
-	}
-	#Nina_info {
-		font-size: 0.9em;
-		text-align: center;
-	}
-
-}
-
-/* XS */
-@media (max-width: 576px) {
-	#init_title {
-		width: 250px;
-	}
-	#info {
-		font-size: 1em;
-	}
-	#resources {
-	font-size: 1.2em;
+.text {
 	text-align: center;
-	}
-	h2 {
-		text-align: left;
-	}
-	.spec_res {
-	font-size: .8em;
-	}
-	#flyer2 {
-		box-sizing: content-box;
-		width: 156px;
-		height: 152px;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	#webflyer2 {
-  		width: 100%;
-  		max-height: 100%;
-  		padding-top: 30px;
-	}
-	#webflyer3 {
-		margin-left: auto;
-		margin-right: auto;
-	}
-	#Nina_info {
-		font-size: 0.9em;
-		text-align: center;
-	}
-
 }
-
-/* iPad Pro*/
-@media only screen 
-  and (min-device-width: 1024px) 
-  and (max-device-width: 1366px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  {
-  	#flyer {
-  		display: none;
-  	}
-  }
-
-
-
-
-
-
